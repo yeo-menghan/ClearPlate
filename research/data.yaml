@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bones', 'Chicken', 'Egg', 'Fish', 'Fruits', 'Green veg', 'Non green veg', 'Pork', 'Potato', 'Rice', 'Tofu']
+
+roboflow:
+  workspace: pose-detect
+  project: food-0urai
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pose-detect/food-0urai/dataset/2
