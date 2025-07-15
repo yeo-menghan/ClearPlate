@@ -1,0 +1,13 @@
+train: ../coin_train/train/images
+val: ../coin_train/valid/images
+test: ../coin_train/test/images
+
+nc: 1
+names: ['coin']
+
+roboflow:
+  workspace: pose-detect
+  project: coins-elg4e
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pose-detect/coins-elg4e/dataset/3

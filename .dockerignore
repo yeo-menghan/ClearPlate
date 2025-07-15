@@ -1,0 +1,10 @@
+coin_train/**/*
+coin_train
+food3_train/**/*
+food3_train
+.git
+.gradio
+venv
+.venv
+~
+research

@@ -1,0 +1,42 @@
+{
+  "coin_sgd1": {
+    "weight_g": 7.62,
+    "diameter_mm": 24.65,
+    "thickness_mm": 2.5,
+    "material": "bimetallic steel/brass",
+    "density_g_per_cm3": 7.85
+  },
+  "Bones": {
+    "density_g_per_cm3": 1.85
+  },
+  "Chicken": {
+    "density_g_per_cm3": 4.12
+  },
+  "Egg": {
+    "density_g_per_cm3": 1.03
+  },
+  "Fish": {
+    "density_g_per_cm3": 1.00
+  },
+  "Fruits": {
+    "density_g_per_cm3": 0.90
+  },
+  "Green veg": {
+    "density_g_per_cm3": 2.2
+  },
+  "Non green veg": {
+    "density_g_per_cm3": 3.3
+  },
+  "Pork": {
+    "density_g_per_cm3": 1.10
+  },
+  "Potato": {
+    "density_g_per_cm3": 0.82
+  },
+  "Rice": {
+    "density_g_per_cm3": 3.6
+  },
+  "Tofu": {
+    "density_g_per_cm3": 2.00
+  }
+}
