@@ -4,30 +4,6 @@
 
 Making a computer vision model to detect, identify and estimate the weight of food waste or unfinished food from plates in RC4 dining hall
 
-# Deployment
-
-To deploy, follow the steps below:
-
-1. Clone the Repo
-
-```
-git clone https://github.com/awpbash/ClearPlate.git
-```
-
-and cd into the root directory.
-
-2. Build the docker image
-
-```
-docker build -t food ./
-```
-
-3. Run the docker image in a container:
-
-```
-docker run -p 7860:7860 food
-```
-
 # Food Waste Detection & Estimation
 
 ## The Problem: Inefficient Food Waste Measurement
@@ -83,6 +59,30 @@ To translate the area ratio into an actionable weight estimate, we employ a supe
 - **Data Collection:** We meticulously collect training data by capturing images of various food items with a known weight, consistently placed alongside the reference coin.
 - **Feature-Label Mapping:** The calculated area ratio from these images serves as the input feature, with the precisely measured known weight acting as the ground truth label.
 - **XGBoost Regression Model:** This rich dataset is then used to train an **XGBoost regression model**. This powerful model learns the complex relationship between the area ratio and the actual weight of the food, enabling accurate weight prediction for new, unseen waste.
+
+### Step 5: Deployment
+
+To deploy, follow the steps below:
+
+1. Clone the Repo
+
+```
+git clone https://github.com/awpbash/ClearPlate.git
+```
+
+and cd into the root directory.
+
+2. Build the docker image
+
+```
+docker build -t food ./
+```
+
+3. Run the docker image in a container:
+
+```
+docker run -p 7860:7860 food
+```
 
 ## Pipeline Overview: From Image to Insight
 
