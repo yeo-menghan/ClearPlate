@@ -1,6 +1,6 @@
 # ClearPlate
     
-![Output](assets/output.png)
+![Output](output.png)
 
 Making a computer vision model to detect, identify and estimate the weight of food waste or unfinished food from plates in RC4 dining hall
 
@@ -79,4 +79,3 @@ We envision extending our solution's capabilities to revolutionize food waste ma
 * **Smart Deployment:** Deploy our system in public food courts, school canteens, or organizational cafeterias by mounting cameras strategically. This would allow for real-time detection and analysis of food waste at scale, providing invaluable data and actionable insights to vendors, organizations, and policymakers for more effective sustainability initiatives.
 
 Our AI-powered food waste detection pipeline offers a practical, scalable, and accurate solution to a pressing global challenge, paving the way for more sustainable food consumption practices.
->>>>>>> 3b18120 (to merge)
