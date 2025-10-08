@@ -84,6 +84,11 @@ docker build -t food ./
 docker run -p 7860:7860 food
 ```
 
+4. Access gradio app via localhost port
+```
+http://localhost:7860/
+```
+
 ## Pipeline Overview: From Image to Insight
 
 Our comprehensive pipeline integrates these steps seamlessly:
